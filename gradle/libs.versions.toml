@@ -19,6 +19,7 @@ cameraView = "1.4.2"
 cameraLifecycle = "1.4.2"
 startupRuntime = "1.2.0"
 firebaseAuthKtx = "23.2.1"
+zxingAndroidEmbedded = "4.3.0"
 
 [libraries]
 androidx-appcompat-v170 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
@@ -40,6 +41,7 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraView" }
 androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraLifecycle" }
 firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
